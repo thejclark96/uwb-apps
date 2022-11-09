@@ -177,8 +177,8 @@ slot_cb(struct dpl_event * ev){
         nrng_listen(nrng, UWB_BLOCKING);
     } else {
         /* Range with the anchors */
-        if (idx%MYNEWT_VAL(NRNG_NTAGS) != udev->slot_id) {
-            return;
+        if (idx%MYNEWT_VAL(NRNG_NTAGS) != udev->slot_id) {      // NRNG_NTAGS   = Max number of tags to allow in slots
+            return;                                             // slot_id      =  Assigned slot_id
         }
 
         /* Range with the anchors */

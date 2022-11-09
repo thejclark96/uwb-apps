@@ -23,6 +23,9 @@ pkg.author: "UWB Core <uwbcore@gmail.com>"
 pkg.homepage: "http://decawave.com/"
 pkg.keywords:
 
+pkg.cflags:
+    - "-Wno-error=address-of-packed-member"
+    
 pkg.deps:
     - "@decawave-uwb-core/lib/rtdoa"
     - "@decawave-uwb-core/lib/rtdoa_tag"

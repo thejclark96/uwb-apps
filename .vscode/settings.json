@@ -1,0 +1,9 @@
+{
+    "files.associations": {
+        "nrng.h": "c",
+        "console.h": "c",
+        "ble_monitor.h": "c",
+        "uwb_mac.h": "c",
+        "uwb.h": "c"
+    }
+}

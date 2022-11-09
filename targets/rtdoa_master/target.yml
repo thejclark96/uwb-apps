@@ -1,0 +1,2 @@
+target.app: apps/rtdoa_node
+target.bsp: "@decawave-uwb-core/hw/bsp/dwm1001"

@@ -1,0 +1,16 @@
+syscfg.vals:
+    # BLEPRPH_ENABLED: 1
+    CONSOLE_RTT: 0
+    CONSOLE_UART: 1
+    DW1000_SYS_STATUS_BACKTRACE_LEN: 128
+    # NODE_END_SLOT_ID: 7
+    # NODE_START_SLOT_ID: 0
+    NRNG_DEVICE_TYPE: 0
+    NRNG_HUMAN_READABLE_RANGES: 1
+
+    NRNG_NNODES:    3               #'Number of nodes to be ranged with'
+    #NRNG_NTAGS:     3               #'Max number of tags to allow in slots'
+    #NRNG_NFRAMES:   6               #'Number of frames expected'
+
+    NRNG_VERBOSE:   1               #'Show debug output from postprocess'
+    NRNG_STATS:     1               #'Enable statistics for the nrng module'

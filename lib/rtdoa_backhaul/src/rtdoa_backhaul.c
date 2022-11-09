@@ -293,7 +293,7 @@ rtdoa_backhaul_print(struct rtdoabh_tag_results_pkg *p, bool tight)
                 printf("%s%d.%03d%s", (sign)?"":"-", abs(ddist_m), ddist_mm, (is_last)?",":"");
                 break;
             }
-            case 2: {
+            case 2: {   //!< Receiver strength indicator (dBm)
                 float rssif = (float)r->rssi/10;
                 int rssi_frac = abs((int)(10*(rssif-(int)rssif)));
                 printf("%d.%d%s", (int)rssif, rssi_frac, (is_last)?",":"");

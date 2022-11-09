@@ -1,0 +1,4 @@
+syscfg.vals:
+    LOG_LEVEL: 1
+    MASTER_NODE: 0
+    UWBCFG_DEF_ROLE: "\"0x1\""
